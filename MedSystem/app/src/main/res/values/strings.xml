@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Medical System</string>
+    <string name="title_activity_pacientes">Pacientes</string>
+    <string name="tab_text_1">paciente</string>
+    <string name="tab_text_2">Cadastro</string>
+    <string name="tab_titles">extra</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="array_estadocivil">
+        <item>Solteiro(a)</item>
+        <item>Divorciado(a)</item>
+        <item>Casado(a)</item>
+    </string-array>
+
+</resources>

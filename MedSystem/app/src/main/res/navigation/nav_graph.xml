@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/activityPacientes">
+
+    <activity
+        android:id="@+id/activityPacientes"
+        android:name="dev.daniel.medsystem.ActivityPacientes"
+        android:label="activity_pacientes"
+        tools:layout="@layout/activity_pacientes" />
+    <fragment
+        android:id="@+id/placeholderFragment"
+        android:name="dev.daniel.medsystem.ui.main.PlaceholderFragment"
+        android:label="fragment_activity_pacientes"
+        tools:layout="@layout/fragment_activity_pacientes" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="dev.daniel.medsystem.MainActivity"
+        android:label="MainActivity" />
+</navigation>
